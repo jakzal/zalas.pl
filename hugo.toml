@@ -1,0 +1,74 @@
+baseURL = "https://zalas.pl/"
+languageCode = "en-gb"
+title = "Kuba's blog"
+theme = "PaperMod"
+
+author = "Jakub Zalas"
+copyright = "Copyright © 2009–2025 Jakub Zalas; all rights reserved."
+
+[params]
+  ShowReadingTime = true
+  ShowWordCount = true
+  DefaultTheme = "light"
+  author = "Jakub Zalas"
+
+  [assets]
+    favicon = "favicon.ico"
+    favicon16x16 = "favicon-16x16.png"
+    favicon32x32 = "favicon-32x32.png"
+    appleTouchIcon = "favicon.png"
+    safariPinnedTab = "favicon.png"
+
+  [[params.socialIcons]]
+    name = "github"
+    title = "Jakub Zalas on Github"
+    url = "https://github.com/jakzal"
+
+  [[params.socialIcons]]
+    name = "X"
+    title = "Jakub Zalas on X/Twitter"
+    url = "https://x.com/jakub_zalas"
+
+  [[params.socialIcons]]
+    name = "Bluesky"
+    title = "Jakub Zalas on Bluesky"
+    url = "https://bsky.app/profile/kuba.zalas.pl"
+
+  [[params.socialIcons]]
+    name = "Mastodon"
+    title = "Jakub Zalas on Mastodon"
+    url = "https://mastodon.social/@jakub_zalas"
+
+  [[params.socialIcons]]
+    name = "LinkedIn"
+    title = "Jakub Zalas on LinkedIn"
+    url = "https://www.linkedin.com/in/jakubzalas/"
+
+  [params.profileMode]
+    enabled = true
+    title = "Jakub Zalas"
+    imageUrl = "jakub-zalas.jpeg"
+    imageTitle = "Jakub Zalas"
+    subtitle = "👨🏼‍💼 Software Architect | 🧑🏼‍💻 Developer | 🧑🏼‍🏫 Trainer"
+    # imageWidth = 120
+    # imageHeight = 120
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "posts"
+
+    [[params.profileMode.buttons]]
+      name = "Tags"
+      url = "tags"
+
+  [params.homeInfoParams]
+    Title = "Jakub Zalas"
+    Content = """
+      👋 Welcome to demo page of Hugo's theme PaperMod!
+
+      - **PaperMod** is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+
+      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media.
+
+      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+      """
