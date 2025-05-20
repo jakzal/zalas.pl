@@ -53,3 +53,7 @@ googleAnalytics = "G-CVLMK236R4"
     imageUrl = "jakub-zalas.jpeg"
     imageTitle = "Jakub Zalas"
     subtitle = "👨🏼‍💼 Software Architect | 🧑🏼‍💻 Developer | 🧑🏼‍🏫 Trainer"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
