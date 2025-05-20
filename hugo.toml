@@ -1,6 +1,6 @@
 baseURL = "https://zalas.pl/"
 languageCode = "en-gb"
-title = "Kuba's blog"
+title = "Jakub Zalas"
 theme = "PaperMod"
 
 author = "Jakub Zalas"
@@ -13,6 +13,7 @@ googleAnalytics = "G-CVLMK236R4"
   ShowWordCount = true
   DefaultTheme = "light"
   author = "Jakub Zalas"
+  hideFooter = true
 
   [assets]
     favicon = "favicon.ico"
@@ -52,25 +53,3 @@ googleAnalytics = "G-CVLMK236R4"
     imageUrl = "jakub-zalas.jpeg"
     imageTitle = "Jakub Zalas"
     subtitle = "👨🏼‍💼 Software Architect | 🧑🏼‍💻 Developer | 🧑🏼‍🏫 Trainer"
-    # imageWidth = 120
-    # imageHeight = 120
-
-    [[params.profileMode.buttons]]
-      name = "Posts"
-      url = "posts"
-
-    [[params.profileMode.buttons]]
-      name = "Tags"
-      url = "tags"
-
-  [params.homeInfoParams]
-    Title = "Jakub Zalas"
-    Content = """
-      👋 Welcome to demo page of Hugo's theme PaperMod!
-
-      - **PaperMod** is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
-
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media.
-
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
-      """
