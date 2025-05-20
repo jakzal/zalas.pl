@@ -48,7 +48,7 @@ googleAnalytics = "G-CVLMK236R4"
 
   [params.profileMode]
     enabled = true
-    title = "Jakub Zalas"
+    title = "Jakub Zalas {{< sup >}}a.k.a. Kuba{{< /sup >}}"
     imageUrl = "jakub-zalas.jpeg"
     imageTitle = "Jakub Zalas"
     subtitle = "👨🏼‍💼 Software Architect | 🧑🏼‍💻 Developer | 🧑🏼‍🏫 Trainer"
