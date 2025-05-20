@@ -6,6 +6,8 @@ theme = "PaperMod"
 author = "Jakub Zalas"
 copyright = "Copyright © 2009–2025 Jakub Zalas; all rights reserved."
 
+googleAnalytics = "G-CVLMK236R4"
+
 [params]
   ShowReadingTime = true
   ShowWordCount = true
