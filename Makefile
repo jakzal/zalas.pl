@@ -13,7 +13,7 @@ hugo-build:
 
 hugo-run: HUGO_RUN_CMD ?= server -D
 hugo-run:
-	docker run --name $(HUGO_CONTAINER) --rm -it -v $(PWD):/src -v $(HUGO_CACHE_PATH):/tmp/hugo_cache -p 1313:1313 $(HUGO_IMAGE) $(HUGO_RUN_CMD)
+	docker run --name $(HUGO_CONTAINER) --rm -it -e HUGO_ENVIRONMENT -v $(PWD):/src -v $(HUGO_CACHE_PATH):/tmp/hugo_cache -p 1313:1313 $(HUGO_IMAGE) $(HUGO_RUN_CMD)
 .PHONY: run
 
 hugo-exec: HUGO_EXEC_CMD ?= /bin/sh
