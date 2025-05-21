@@ -4,7 +4,7 @@ title = "Kuba's blog"
 theme = "PaperMod"
 
 author = "Jakub Zalas"
-copyright = "Copyright © 2009–2025 Jakub Zalas; all rights reserved."
+copyright = "Copyright © 2009–{{< year >}} Jakub Zalas; all rights reserved."
 
 googleAnalytics = "G-CVLMK236R4"
 
