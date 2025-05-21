@@ -74,11 +74,11 @@ googleAnalytics = "G-CVLMK236R4"
 
     [[params.profileMode.buttons]]
       name = "Posts"
-      url = "posts"
+      url = "/posts/"
 
     [[params.profileMode.buttons]]
       name = "Tags"
-      url = "tags"
+      url = "/tags/"
 
 [caches]
   [caches.images]
