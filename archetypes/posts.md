@@ -3,7 +3,7 @@ title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 date: "{{ .Date }}"
 draft: true
 tags: []
-description: "Desc Text."
+keywords: []
 cover:
   image: "death-valley.jpg"
   alt: "Death Valley"
