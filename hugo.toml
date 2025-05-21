@@ -8,6 +8,13 @@ copyright = "Copyright © 2009–{{< year >}} Jakub Zalas; all rights reserved."
 
 googleAnalytics = "G-CVLMK236R4"
 
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+
 [params]
   ShowReadingTime = true
   ShowWordCount = true
