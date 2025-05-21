@@ -62,11 +62,11 @@ I will sometimes need to refactor them or even replace if I decided to change so
 
 In order to write tests for finer-grained behaviours, I need to replace some dependencies with test doubles (i.e. fakes, stubs, mocks, etc.).
 I do that, among other reasons, to have a better control over the context in which the behaviour is executed.
-Introducing test doubles naturally cuts the behaviour to be finer-grained and this way reduces the scope of the test.
+Introducing test doubles naturally cuts the behaviour to be finer-grained, and this way reduces the scope of the test.
 
 {{< figure src="replacing-dependencies-in-tests.svg" caption="Replacing dependencies in tests" >}}
 
-However, I do not need to replace all dependencies. I do not need to replace direct dependencies either.
+However, I do not need to replace all dependencies. I do not need to replace direct dependencies, either.
 It's up to me to decide how coarse the unit I'm writing a test for is.
 
 {{< figure src="replacing-some-dependencies-in-tests.svg" caption="Replacing (some) dependencies in tests" >}}
@@ -85,7 +85,7 @@ I tend to write both kinds though, to make sure both external and internal quali
 
 I like to exercise my acceptance tests for coarser-grained behaviours through one of the higher levels.
 I often use them to create a "walking skeleton".
-This kind of tests won't execute every possible path. I won't write a lot of them either.
+This kind of tests won't execute every possible path. I won't write a lot of them, either.
 This kind of tests will exercise big chunks of behaviours to confirm and document the business goals.
 These tests will also make sure everything is correctly wired together.
 These tests merely supplement the tests that exercise the finer-grained behaviours.
