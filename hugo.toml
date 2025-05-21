@@ -14,6 +14,9 @@ googleAnalytics = "G-CVLMK236R4"
   DefaultTheme = "light"
   author = "Jakub Zalas"
   hideFooter = true
+  description = "Jakub Zalas is a software engineer, architect, and trainer who takes great pride in his craft and quality of work. Friends call him Kuba. Get in touch for consultancy, training or software development."
+  keywords = ["Jakub Zalas", "Kuba Zalas", "Jakub Zalas blog", "software engineer", "software architect", "Jakub Zalas trainer", "consultant", "trainer", "tdd", "bdd", "ddd", "test-driven development", "behaviour-driven development", "domain-driven design", "event sourcing", "kotlin", "java", "php", "csharp"]
+  images = ["death-valley.jpg", "jakub-zalas.jpeg"]
 
   [assets]
     favicon = "favicon.ico"
