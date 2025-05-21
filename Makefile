@@ -5,7 +5,7 @@ HUGO_IMAGE ?= hugomods/hugo:ci-0.147.4
 build: hugo-build
 .PHONY: build
 
-hugo-build: BASE_URL ?= https://www.zalas.pl
+hugo-build: BASE_URL ?= https://zalas.pl
 hugo-build:
 	docker run --rm -v $(PWD):/src -e HUGO_ENVIRONMENT -v $(HUGO_CACHE_PATH):/tmp/hugo_cache $(HUGO_IMAGE) \
 	  hugo --gc --minify --baseURL "$(BASE_URL)" --cacheDir "/tmp/hugo_cache"
