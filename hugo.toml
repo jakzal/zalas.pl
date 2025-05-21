@@ -8,6 +8,9 @@ copyright = "Copyright © 2009–{{< year >}} Jakub Zalas; all rights reserved."
 
 googleAnalytics = "G-CVLMK236R4"
 
+[permalinks]
+  posts = "/:slug/"
+
 [menu]
   [[menu.main]]
     identifier = "posts"
