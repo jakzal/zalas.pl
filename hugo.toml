@@ -18,6 +18,10 @@ googleAnalytics = "G-CVLMK236R4"
   keywords = ["Jakub Zalas", "Kuba Zalas", "Jakub Zalas blog", "software engineer", "software architect", "Jakub Zalas trainer", "consultant", "trainer", "tdd", "bdd", "ddd", "test-driven development", "behaviour-driven development", "domain-driven design", "event sourcing", "kotlin", "java", "php", "csharp"]
   images = ["death-valley.jpg", "jakub-zalas.jpeg"]
 
+  [analytics]
+    [google]
+      SiteVerificationTag = "mHEiONNL9DtmjWO7JCPw24xJ/FNQsnO8ekomLfropQg="
+
   [assets]
     favicon = "favicon.ico"
     favicon16x16 = "favicon-16x16.png"
