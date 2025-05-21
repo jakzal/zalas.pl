@@ -7,7 +7,7 @@ build: hugo-build
 
 hugo-build: BASE_URL ?= https://www.zalas.pl
 hugo-build:
-	docker run --rm -v $(PWD):/src -v $(HUGO_CACHE_PATH):/tmp/hugo_cache $(HUGO_IMAGE) \
+	docker run --rm -v $(PWD):/src -e HUGO_ENVIRONMENT -v $(HUGO_CACHE_PATH):/tmp/hugo_cache $(HUGO_IMAGE) \
 	  hugo --gc --minify --baseURL "$(BASE_URL)" --cacheDir "/tmp/hugo_cache"
 .PHONY: hugo-build
 
