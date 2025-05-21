@@ -7,6 +7,7 @@ keywords: ["testing", "tdd", "bdd", "behaviour", "behavior", "granularity", "lay
 cover:
   image: "testing-at-higher-levels.svg"
   alt: "On granularity of tests focused on behaviour"
+  hiddenInSingle: true
 ---
 
 ## Behaviour
