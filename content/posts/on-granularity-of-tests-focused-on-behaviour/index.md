@@ -3,6 +3,7 @@ title: "On granularity of tests focused on behaviour"
 date: "2022-05-17T10:16:05Z"
 draft: false
 tags: ["testing", "tdd", "bdd"]
+keywords: ["testing", "tdd", "bdd", "behaviour", "behavior", "granularity", "layers", "altitude", "levels"]
 cover:
   image: "testing-at-higher-levels.svg"
   alt: "On granularity of tests focused on behaviour"
