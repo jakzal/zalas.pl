@@ -12,6 +12,7 @@ googleAnalytics = "G-CVLMK236R4"
   ShowReadingTime = true
   ShowWordCount = true
   DefaultTheme = "light"
+  ShowToc = true
   author = "Jakub Zalas"
   hideFooter = true
   description = "Jakub Zalas is a software engineer, architect, and trainer who takes great pride in his craft and quality of work. Friends call him Kuba. Get in touch for consultancy, training or software development."
@@ -60,6 +61,14 @@ googleAnalytics = "G-CVLMK236R4"
     imageUrl = "jakub-zalas.jpeg"
     imageTitle = "Jakub Zalas"
     subtitle = "👨🏼‍💼 Software Architect | 🧑🏼‍💻 Developer | 🧑🏼‍🏫 Trainer"
+
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "posts"
+
+    [[params.profileMode.buttons]]
+      name = "Tags"
+      url = "tags"
 
 [caches]
   [caches.images]
