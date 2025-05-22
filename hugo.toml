@@ -11,6 +11,9 @@ googleAnalytics = "G-CVLMK236R4"
 [permalinks]
   posts = "/:slug/"
 
+[taxonomies]
+  tag = "tags"
+
 [menu]
   [[menu.main]]
     identifier = "posts"
