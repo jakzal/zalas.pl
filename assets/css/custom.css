@@ -27,3 +27,7 @@ h1 sup {
 .post-content img {
     margin: 0 auto;
 }
+
+#disqus_thread {
+    margin-top: 4em;
+}
