@@ -5,7 +5,7 @@ draft: false
 tags: ["tdd", "bdd", "testing", "contract tests", "collaboration tests"]
 keywords: ["tdd", "bdd", "testing", "contract tests", "collaboration tests"]
 cover:
-  image: "contract-and-collaboration-tests.png"
+  image: "/collaboration-and-contract-tests/cover.png"
   alt: "Contract and collaboration tests"
   hiddenInSingle: true
 ---
