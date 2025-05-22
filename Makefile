@@ -21,7 +21,7 @@ hugo-exec:
 	docker exec -it $(HUGO_CONTAINER) $(HUGO_EXEC_CMD)
 .PHONY: exec
 
-hugo-new-post: NAME ?= rename-me.md
+hugo-new-post: NAME ?= rename-me
 hugo-new-post:
-	$(MAKE) hugo-exec HUGO_EXEC_CMD="hugo new content/posts/$(NAME)"
+	$(MAKE) hugo-run HUGO_CONTAINER=hugo-new-post HUGO_RUN_CMD="hugo new content/posts/$(NAME)/index.md"
 .PHONY: hugo-new-post
