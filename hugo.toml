@@ -23,6 +23,7 @@ googleAnalytics = "G-CVLMK236R4"
   ShowWordCount = true
   DefaultTheme = "light"
   ShowToc = true
+  comments = true
   author = "Jakub Zalas"
   hideFooter = true
   description = "Jakub Zalas is a software engineer, architect, and trainer who takes great pride in his craft and quality of work. Friends call him Kuba. Get in touch for consultancy, training or software development."
@@ -79,6 +80,10 @@ googleAnalytics = "G-CVLMK236R4"
     [[params.profileMode.buttons]]
       name = "Tags"
       url = "/tags/"
+
+[services]
+  [services.disqus]
+    shortname = 'kubas-blog'
 
 [caches]
   [caches.images]
