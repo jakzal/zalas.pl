@@ -20,6 +20,10 @@ h1 sup {
     border-left: 5px solid #bb1313;
 }
 
-figure {
+.post-content figure {
     text-align: center;
+}
+
+.post-content img {
+    margin: 0 auto;
 }
