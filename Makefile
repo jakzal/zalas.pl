@@ -12,8 +12,9 @@ hugo-build:
 .PHONY: hugo-build
 
 hugo-run: HUGO_RUN_CMD ?= server -D
+hugo-run: HUGO_PORT ?= 1313
 hugo-run:
-	docker run --name $(HUGO_CONTAINER) --rm -it -e HUGO_ENVIRONMENT -v $(PWD):/src -v $(HUGO_CACHE_PATH):/tmp/hugo_cache -p 1313:1313 $(HUGO_IMAGE) $(HUGO_RUN_CMD)
+	docker run --name $(HUGO_CONTAINER) --rm -it -e HUGO_ENVIRONMENT -v $(PWD):/src -v $(HUGO_CACHE_PATH):/tmp/hugo_cache -p $(HUGO_PORT):1313 $(HUGO_IMAGE) $(HUGO_RUN_CMD)
 .PHONY: run
 
 hugo-exec: HUGO_EXEC_CMD ?= /bin/sh
@@ -23,5 +24,5 @@ hugo-exec:
 
 hugo-new-post: NAME ?= rename-me
 hugo-new-post:
-	$(MAKE) hugo-run HUGO_CONTAINER=hugo-new-post HUGO_RUN_CMD="hugo new content/posts/$(NAME)/index.md"
+	$(MAKE) hugo-run HUGO_CONTAINER=hugo-new-post HUGO_RUN_CMD="hugo new content/posts/$(NAME)/index.md" HUGO_PORT=11313
 .PHONY: hugo-new-post
