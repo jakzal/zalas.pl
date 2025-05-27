@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: //zalas.pl/sitemap.xml
+Sitemap: https://zalas.pl/sitemap.xml
