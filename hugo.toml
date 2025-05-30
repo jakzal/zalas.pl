@@ -21,6 +21,15 @@ googleAnalytics = "G-CVLMK236R4"
     url = "/posts/"
     weight = 10
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+        title = true
+
 [params]
   ShowReadingTime = true
   ShowWordCount = true
@@ -29,6 +38,7 @@ googleAnalytics = "G-CVLMK236R4"
   comments = true
   author = "Jakub Zalas"
   hideFooter = true
+  DisableHLJS = true
   description = "Jakub Zalas is a software engineer, architect, and trainer who takes great pride in his craft and quality of work. Friends call him Kuba. Get in touch for consultancy, training or software development."
   keywords = ["Jakub Zalas", "Kuba Zalas", "Jakub Zalas blog", "software engineer", "software architect", "Jakub Zalas trainer", "consultant", "trainer", "tdd", "bdd", "ddd", "test-driven development", "behaviour-driven development", "domain-driven design", "event sourcing", "kotlin", "java", "php", "csharp"]
   images = ["jakub-zalas.jpeg", "death-valley.jpg"]

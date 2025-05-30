@@ -1,0 +1,9 @@
+{{ $result := transform.HighlightCodeBlock . }}
+<figure>
+    {{ $result.Wrapped }}
+    {{ with .Attributes.caption }}
+    <figcaption class="codeblock-caption">
+        {{ . | safeHTML }}
+    </figcaption>
+    {{ end }}
+</figure>

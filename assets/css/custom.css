@@ -24,6 +24,15 @@ h1 sup {
     text-align: center;
 }
 
+.post-content figure blockquote {
+    text-align: left;
+}
+
+.post-content figure figcaption {
+    color: var(--secondary);
+    font-weight: 400;
+}
+
 .post-content img {
     margin: 0 auto;
 }
