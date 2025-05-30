@@ -73,8 +73,7 @@ It's up to me to decide how coarse the unit I'm writing a test for is.
 {{< figure src="replacing-some-dependencies-in-tests.svg" caption="Replacing (some) dependencies in tests" >}}
 
 > We get to choose when and where we break the dependency chain for testing.
-> 
-> -- Micheal "GeePaw" Hill
+{cite="https://www.geepawhill.org/2018/01/16/underplayed-the-chain-premise-in-depth/" caption="Micheal \"GeePaw\" Hill"}
 
 ## Conclusion
 
