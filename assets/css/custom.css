@@ -45,3 +45,7 @@ h1 sup {
 #disqus_thread {
     margin-top: 4em;
 }
+
+.tag-entry .entry-cover {
+    display: block;
+}
