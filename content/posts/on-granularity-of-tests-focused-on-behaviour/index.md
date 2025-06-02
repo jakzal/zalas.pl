@@ -20,9 +20,9 @@ This means that given the context (input), the function's behaviour can be verif
 
 Notice that the most straightforward outcome to verify is the function's return value, but it's not the only outcome we can look for. Functions can have side effects, modify state, interact with collaborators, etc.
 
-{{< note info >}}
-I'm going to talk about functions as a unit of behaviour for simplicity, but most of it applies to objects as well. After all, objects can be thought of as functions with some context encapsulated.
-{{< /note >}}
+> [!NOTE]
+> I'm going to talk about functions as a unit of behaviour for simplicity, but most of it applies to objects as well.
+> After all, objects can be thought of as functions with some context encapsulated.
 
 ## Composition
 
