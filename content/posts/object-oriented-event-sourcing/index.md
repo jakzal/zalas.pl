@@ -11,10 +11,10 @@ cover:
 summary: This time, we're going to refactor our solution towards an object-oriented (OOP) style. The finite state machine we implemented previously enables us to take advantage of polymorphic behaviour while sticking to immutability.
 ---
 
-> [!SERIES] This article is part of the [event sourcing](/series/event-sourcing) series:
+> [!SERIES] This article is part of the [event sourcing](/series/event-sourcing/) series:
 >
 > * [Functional domain model](/functional-domain-model/)
-> * [Functional event sourcing](/functional-event-sourcing)
+> * [Functional event sourcing](/functional-event-sourcing/)
 > * [Functional event sourcing example in Kotlin](/functional-event-sourcing-example-in-kotlin/)
 > * [Deriving state from events](/deriving-state-from-events/)
 > * Object-Oriented event sourcing

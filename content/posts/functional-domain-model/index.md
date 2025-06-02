@@ -14,10 +14,10 @@ summary: A **functional domain model** is made of **pure functions** and **immut
 A **functional domain model** is made of **pure functions** and **immutable** types.
 As Domain Driven Design teaches us, it should be expressed in the **language shared** by everyone involved in the project.
 
-> [!SERIES] This article is part of the [event sourcing](/series/event-sourcing) series:
+> [!SERIES] This article is part of the [event sourcing](/series/event-sourcing/) series:
 >
 > * Functional domain model
-> * [Functional event sourcing](/functional-event-sourcing)
+> * [Functional event sourcing](/functional-event-sourcing/)
 > * [Functional event sourcing example in Kotlin](/functional-event-sourcing-example-in-kotlin/)
 > * [Deriving state from events](/deriving-state-from-events/)
 > * [Object-Oriented event sourcing](/object-oriented-event-sourcing/)

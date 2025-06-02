@@ -11,10 +11,10 @@ cover:
 summary: In event sourcing, the state is derived from events that have happened in the past. In a classic approach, state is persisted while events are lost. In an event-sourced system, it's the events that are persisted while state is derived.
 ---
 
-> [!SERIES] This article is part of the [event sourcing](/series/event-sourcing) series:
+> [!SERIES] This article is part of the [event sourcing](/series/event-sourcing/) series:
 >
 > * [Functional domain model](/functional-domain-model/)
-> * [Functional event sourcing](/functional-event-sourcing)
+> * [Functional event sourcing](/functional-event-sourcing/)
 > * [Functional event sourcing example in Kotlin](/functional-event-sourcing-example-in-kotlin/)
 > * Deriving state from events
 > * [Object-Oriented event sourcing](/object-oriented-event-sourcing/)

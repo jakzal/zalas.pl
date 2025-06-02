@@ -17,7 +17,7 @@ This time, we’ll consider how it might work in practice by applying the **even
 
 As it turns out the two go very well together.
 
-> [!SERIES] This article is part of the [event sourcing](/series/event-sourcing) series:
+> [!SERIES] This article is part of the [event sourcing](/series/event-sourcing/) series:
 >
 > * [Functional domain model](/functional-domain-model/)
 > * Functional event sourcing
