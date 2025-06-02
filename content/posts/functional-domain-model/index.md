@@ -8,6 +8,7 @@ keywords: ["kotlin", "functional programming", "ddd", "domain-driven design", "d
 cover:
   image: "functional-domain-model-cover.svg"
   alt: "Functional Domain Model"
+summary: A **functional domain model** is made of **pure functions** and **immutable** types. As Domain Driven Design teaches us, it should be expressed in the **language shared** by everyone involved in the project.
 ---
 
 A **functional domain model** is made of **pure functions** and **immutable** types.

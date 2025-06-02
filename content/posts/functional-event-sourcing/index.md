@@ -8,6 +8,7 @@ keywords: ["kotlin", "event sourcing", "functional event sourcing", "ddd", "func
 cover:
   image: "functional-event-sourcing-cover.svg"
   alt: "Functional event sourcing"
+summary: Let's consider how functional domain model might work in practice by applying the **event sourcing** pattern.
 ---
 
 In [the previous post](/functional-domain-model/), we looked at the benefits of a **domain model** implemented in a **purely functional** code.

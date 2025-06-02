@@ -8,6 +8,7 @@ cover:
   image: "/on-granularity-of-tests-focused-on-behaviour/testing-at-higher-levels.svg"
   alt: "On granularity of tests focused on behaviour"
   hiddenInSingle: true
+summary: A function is one of the smallest units of behaviour. Functions can be composed to build coarser behaviours. What granularity and altitude to test behaviours on?
 ---
 
 ## Behaviour

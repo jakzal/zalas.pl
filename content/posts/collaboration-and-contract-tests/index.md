@@ -8,6 +8,7 @@ cover:
   image: "/collaboration-and-contract-tests/cover.png"
   alt: "Contract and collaboration tests"
   hiddenInSingle: true
+summary: A **collaboration test** is an example of interactions between the subject of the test and its collaborators often replaced with test doubles. A **contract test** confirms assumptions made in test doubles.
 ---
 
 A **collaboration test** is an example of interactions between the subject of the test and its collaborators.
