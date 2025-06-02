@@ -18,6 +18,13 @@ h1 sup {
     border-inline-start: 3px solid #bb1313;
 }
 
+.post-content .alert-series {
+    border: 1px solid var(--tertiary);
+    border-inline-start: 5px solid var(--tertiary);
+    padding: 1rem;
+    border-radius: var(--radius);
+}
+
 .post-content figure {
     text-align: center;
 }

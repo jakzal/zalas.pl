@@ -4,9 +4,25 @@
     "note" ":information_source:"
     "tip" ":bulb:"
     "warning" ":information_source:"
+    "series" ":book:"
 }}
 
 {{ if eq .Type "alert" }}
+{{ if eq .AlertType "series" }}
+<figure>
+    <blockquote class="alert alert-{{ .AlertType }}">
+        <p class="alert-heading">
+            {{ transform.Emojify (index $emojis .AlertType) }}
+            {{ with .AlertTitle }}
+            {{ . }}
+            {{ else }}
+            {{ or (i18n .AlertType) (title .AlertType) }}
+            {{ end }}
+        </p>
+        {{ .Text }}
+    </blockquote>
+</figure>
+{{ else }}
 <figure>
     <blockquote class="alert alert-{{ .AlertType }}">
         <p class="alert-heading">
@@ -25,6 +41,7 @@
     </figcaption>
     {{ end }}
 </figure>
+{{ end }}
 {{ else }}
 <figure>
     <blockquote {{ with .Attributes.cite }}cite="{{ . }}"{{ end }}>

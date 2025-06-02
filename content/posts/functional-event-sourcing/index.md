@@ -2,6 +2,7 @@
 title: "Functional event sourcing"
 date: "2023-10-19T21:14:25Z"
 draft: true
+series: ["Event Sourcing"]
 tags: ["kotlin", "event sourcing", "ddd", "functional programming"]
 keywords: ["kotlin", "event sourcing", "functional event sourcing", "ddd", "functional programming", "domain-driven design", "dddesign", "decider"]
 cover:
@@ -14,6 +15,14 @@ In [the previous post](/functional-domain-model/), we looked at the benefits of 
 This time, we’ll consider how it might work in practice by applying the **event sourcing** pattern to a functional domain model.
 
 As it turns out the two go very well together.
+
+> [!SERIES] This article is part of the [event sourcing](/series/event-sourcing) series:
+>
+> * [Functional domain model](/functional-domain-model/)
+> * Functional event sourcing
+> * [Functional event sourcing example in Kotlin](/functional-event-sourcing-example-in-kotlin/)
+> * [Deriving state from events](/deriving-state-from-events/)
+> * [Object-Oriented event sourcing](/object-oriented-event-sourcing/)
 
 ## Event sourcing
 

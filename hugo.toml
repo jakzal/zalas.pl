@@ -13,6 +13,7 @@ googleAnalytics = "G-CVLMK236R4"
 
 [taxonomies]
   tag = "tags"
+  series = "series"
 
 [menu]
   [[menu.main]]
