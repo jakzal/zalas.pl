@@ -3,6 +3,7 @@ title: "Deriving state from events"
 date: "2023-11-10T14:27:31Z"
 draft: true
 series: ["Event Sourcing"]
+series_weight: 4
 tags: ["kotlin", "event sourcing", "ddd", "functional programming"]
 keywords: ["kotlin", "event sourcing", "functional event sourcing", "ddd", "functional programming", "domain-driven design", "dddesign", "decider"]
 cover:

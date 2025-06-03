@@ -3,6 +3,7 @@ title: "Functional event sourcing"
 date: "2023-10-19T21:14:25Z"
 draft: true
 series: ["Event Sourcing"]
+series_weight: 2
 tags: ["kotlin", "event sourcing", "ddd", "functional programming"]
 keywords: ["kotlin", "event sourcing", "functional event sourcing", "ddd", "functional programming", "domain-driven design", "dddesign", "decider"]
 cover:

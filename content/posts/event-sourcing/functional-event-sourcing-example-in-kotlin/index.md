@@ -3,6 +3,7 @@ title: "Functional event sourcing example in Kotlin"
 date: "2023-11-03T14:07:56Z"
 draft: true
 series: ["Event Sourcing"]
+series_weight: 3
 tags: ["kotlin", "event sourcing", "ddd", "functional programming", "event modeling"]
 keywords: ["kotlin", "event sourcing", "functional event sourcing", "ddd", "functional programming", "domain-driven design", "dddesign", "decider", "event modeling"]
 cover:
