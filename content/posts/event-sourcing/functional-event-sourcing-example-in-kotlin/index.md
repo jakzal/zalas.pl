@@ -401,9 +401,7 @@ Here's one of the test cases for receiving feedback.
 fun `it gives feedback on the guess`() { 
   val secret = Code("Red", "Green", "Blue", "Yellow")
   val guess = Code("Red", "Purple", "Blue", "Purple")
-  val game = gameOf(
-    GameStarted(gameId, secret, totalAttempts, availablePegs)
-  )
+  val game = gameOf(GameStarted(gameId, secret, totalAttempts, availablePegs))
 
   execute(MakeGuess(gameId, guess), game) shouldSucceedWith listOf(
     GuessMade(gameId, Guess(guess, Feedback(IN_PROGRESS, BLACK, BLACK)))
