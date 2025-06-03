@@ -42,6 +42,10 @@ h1 sup {
     margin: 0 auto;
 }
 
+.post-content details {
+    margin-bottom: var(--content-gap);
+}
+
 #disqus_thread {
     margin-top: 4em;
 }
