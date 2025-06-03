@@ -1,7 +1,7 @@
 ---
 title: "Object-oriented event sourcing"
 date: "2023-11-16T14:34:22Z"
-draft: true
+draft: false
 series: ["Event Sourcing"]
 series_weight: 5
 tags: ["kotlin", "event sourcing", "ddd"]

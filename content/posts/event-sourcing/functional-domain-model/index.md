@@ -1,7 +1,7 @@
 ---
 title: "Functional domain model"
 date: "2023-10-13T20:20:51Z"
-draft: true
+draft: false
 series: ["Event Sourcing"]
 series_weight: 1
 tags: ["kotlin", "functional programming", "ddd"]
