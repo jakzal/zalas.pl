@@ -15,6 +15,8 @@ A **collaboration test** is an example of interactions between the subject of th
 For convenience, speed, reliability, or isolation, collaborators are often replaced with test doubles.
 
 A **contract test** confirms assumptions made in test doubles.
+**Contract tests** are examples that describe the behaviour of an abstraction
+and express what cannot be encoded in the type system.
 
 ----------------------------------
 
@@ -70,7 +72,7 @@ Once we pushed the I/O operation(s) out to the boundaries it's time to write tes
 
 Mocking the database or network calls is not something that gives us confidence in integration with an external service. We will need an integration test for that.
 
-A **contract test** is an integration test that confirms assumptions made in test doubles by exercising the external service.
+A **contract test** is a narrow integration test that confirms assumptions made in test doubles by exercising the external service.
 
 {{< figure src="providing-an-implementation.svg" caption="Providing the real implementation" >}}
 
