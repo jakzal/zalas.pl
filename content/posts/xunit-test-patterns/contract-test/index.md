@@ -259,7 +259,7 @@ In any case, Test Utility Methods that are implementation-agnostic can be kept w
 
 ## Example: Contract Test as an Abstract Testcase
 
-The tests and abstract test utility methods are pulled up to the Contract Test. The move left the tests implementation-agnostic.
+The tests and abstract test utility methods are pulled up to the Contract Test. The move leaves the tests implementation agnostic.
 
 ```kotlin
 abstract class TradeOrderRepositoryContract {
