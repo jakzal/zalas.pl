@@ -454,9 +454,10 @@ Additional implementations can now be provided and conform to the Contract by pa
 ```kotlin
 class InMemoryTradeOrderRepositoryTests {
     @TestFactory
-    fun `TradeOrderRepository Contract`() = TradeOrderRepositoryContract().allTests { tradeOrders: List<TradeOrder> ->
-        InMemoryTradeOrderRepository(tradeOrders)
-    }
+    fun `TradeOrderRepository Contract`() = TradeOrderRepositoryContract()
+        .allTests { tradeOrders: List<TradeOrder> ->
+            InMemoryTradeOrderRepository(tradeOrders)
+        }
 }
 ```
 
