@@ -8,7 +8,7 @@ cover:
   image: "contract-tests-cover.png"
   alt: "Contract Tests"
   hiddenInSingle: true
-summary: todo
+summary: Contract Tests are examples that describe the behaviour of an abstraction by expressing what cannot be encoded in the type system. These are typically helpful in testing adapters as defined in the Ports & Adapters architecture.
 ---
 
 This is a definition of the Contract Test pattern in a format inspired by
@@ -40,7 +40,8 @@ or the [Testcase Superclass](http://xunitpatterns.com/Testcase%20Superclass.html
 What makes the Contract Test different from the Testcase Superclass pattern is a more specific intent.
 The goal of Testcase Superclass is to reuse test utility methods, while Contract Tests specifically describe a Contract to be implemented.
 
-Contract Tests are typically helpful in testing adapters as defined in the Ports & Adapters architecture, but are not limited to them.
+Contract Tests are typically helpful in testing adapters as defined in the Ports & Adapters architecture (a.k.a. Hexagonal architecture),
+but are not limited to them.
 
 In Collaboration Tests, the Contract is implemented with test doubles. Contract Tests complement Collaboration Tests
 by verifying test doubles implement behaviours that are in fact possible.
