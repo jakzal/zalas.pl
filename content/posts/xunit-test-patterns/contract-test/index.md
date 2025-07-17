@@ -5,7 +5,7 @@ draft: false
 tags: ["test patterns", "contract tests", testing, kotlin]
 keywords: ["test patterns", "contract tests", testing, junit, kotlin, "ports and adapters", hexagonal]
 cover:
-  image: "/contract-tests-cover.png"
+  image: "/contract-test/contract-tests-cover.png"
   alt: "Contract Tests"
   hiddenInSingle: true
 summary: Contract Tests are examples that describe the behaviour of an abstraction by expressing what cannot be encoded in the type system. These are typically helpful in testing adapters as defined in the Ports & Adapters architecture.
