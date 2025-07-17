@@ -1,9 +1,9 @@
 ---
 title: "Contract Test"
 date: "2025-07-15T09:45:47Z"
-draft: true
-tags: ["test patterns", "contract tests", testing, xunit, kotlin]
-keywords: ["test patterns", "contract tests", testing, xunit, junit, kotlin, "ports and adapters", hexagonal]
+draft: false
+tags: ["test patterns", "contract tests", testing, kotlin]
+keywords: ["test patterns", "contract tests", testing, junit, kotlin, "ports and adapters", hexagonal]
 cover:
   image: "contract-tests-cover.png"
   alt: "Contract Tests"
